@@ -1,5 +1,7 @@
 package doubtsClarified;
 
+import java.util.Map;
+
 public class constructor_calling {
 
 	 constructor_calling() {
@@ -13,7 +15,8 @@ public class constructor_calling {
 		 System.out.println(a);
 	 }
 	 constructor_calling(int a,int b){
-		 Thread.getAllStackTraces();
+		 Map<Thread, StackTraceElement[]>m=Thread.getAllStackTraces();
+		 System.out.println(m.entrySet());
 		 System.out.println(a+b);
 	 }
 	

@@ -25,8 +25,9 @@ public class ObjectCreationTypes {
 		new ObjectCreationTypes(); // nameless approach
 		new ObjectCreationTypes(10);
 		new ObjectCreationTypes(20,30);	
+		
 		new ObjectCreationTypes().show();
-		new ObjectCreationTypes().disp(); // method calling thoroguh nameless approach
+		new ObjectCreationTypes().disp(); // method calling through nameless approach
 	}
 
 }
