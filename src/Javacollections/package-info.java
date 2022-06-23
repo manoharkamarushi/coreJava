@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author manu
+ *
+ */
+package Javacollections;
