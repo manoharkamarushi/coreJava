@@ -27,7 +27,8 @@ public class wrap1 {
 	Integer i=new Integer(100); // primitive integer constructor
 	Integer i1=new Integer("100"); // string constructor
 	System.out.println(i);
-	System.out.println(i.toString()); // it is over riding the method present in superclass object & returns the content of the integer object
+	System.out.println(i.toString()); 
+	// it is over riding the method present in superclass object & returns the content of the integer object
 	System.out.println("----"+Integer.valueOf(109));
 	
 	

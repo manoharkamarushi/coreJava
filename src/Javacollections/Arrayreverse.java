@@ -12,9 +12,9 @@ public class Arrayreverse {
 	      arrayList.add("C");
 	      arrayList.add("D");
 	      arrayList.add("E");
-	      System.out.println("Before Reverse Order: " + arrayList);
+	      System.out.println("Before ReverseOnlyString Order: " + arrayList);
 	      Collections.reverse(arrayList);
-	      System.out.println("After Reverse Order: " + arrayList);
+	      System.out.println("After ReverseOnlyString Order: " + arrayList);
 	}
 
 }

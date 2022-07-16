@@ -13,7 +13,8 @@ boolean				Boolean					Boolean,String
 
 eg: Integer i=new Integer(12);
 	Integer i=new Integer("12"); // it converts int into string but not
-	Integer i =new Integer("one"); // but not string to int..no need to like the rest wrapper classes too
+	Integer i =new Integer("one"); 
+	// but not string to int..no need to like the rest wrapper classes too
 	NumberFormatException generates
 	-----------------------------------
 * All java wrapper classes are immutable classes,means dont allow modifications.

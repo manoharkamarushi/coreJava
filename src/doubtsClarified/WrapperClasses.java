@@ -2,6 +2,7 @@ package doubtsClarified;
 
 public class WrapperClasses {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
 		Object a=new WrapperClasses();

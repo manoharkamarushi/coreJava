@@ -14,7 +14,7 @@ public class prime3_Easiest {
 					break;
 				}
 			}
-			
+
 			if (isprime)
 				System.out.print(" " + i);
 		}

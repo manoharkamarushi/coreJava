@@ -12,7 +12,7 @@ public class Stars_Patterns {
 			}
 		}
 		// here for i=1, j loop repeats 10 times
-		// again for i=2 ,j loop repeats 10 times
+		// again for i=2 ,j loop repeats 10 timesF
 	}
 
 	@Test(enabled = false)
@@ -29,8 +29,8 @@ public class Stars_Patterns {
 		// for 1=3 j=again 1,2,3
 	}
 
-	@Test(enabled = true)
-	public void apyramid() {
+	@Test(enabled = false)
+	public void pyramidOrTraingle1() {
 		int i, j, k;
 
 		for (i = 1; i <= 5; i++) {
@@ -45,12 +45,13 @@ public class Stars_Patterns {
 		}
 	}
 
-	@Test(enabled = true)
-	public void bhallow() {
+	@Test(enabled = false)
+	public void hallowTriangle() {
 
 		int height = 5;
 
 		for (int i = 1; i <= height; i++) {
+			
 			for (int j = 1; j <= i; j++) {
 
 				if (i == 1 || i == height || j == 1 || j == i)
@@ -65,9 +66,9 @@ public class Stars_Patterns {
 	}
 
 	@Test(enabled = true)
-	public void cpyramid_1() {
+	public void pyramidOrTraingle2() {
 
-		for (int i = 1; i < 5; i++) {
+		for (int i = 1; i <5; i++) {
 
 			for (int j = 1; j < 5 - i; j++) {
 				System.out.print(" ");

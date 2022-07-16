@@ -51,7 +51,7 @@ public class RemovingDuplicates {
 		String str = sc.nextLine();
 		String ourString = "";
 
-		for (int i = 0; i < str.length(); i++) { // traversing all the chracters
+		for (int i = 0; i < str.length(); i++) { // traversing all the characters
 
 			if (i == 0) {
 				ourString = "" + str.charAt(i);
@@ -65,4 +65,4 @@ public class RemovingDuplicates {
 		System.out.println(ourString);
 	}
 
- }
+}

@@ -16,9 +16,7 @@ public class println {
 		
 //		PrintStream myout =  new PrintStream(new FileOutputStream(FileDescriptor.out));
 //		myout.print("www.instanceofjava.com \n");
-
 //		PrintStream java.io.PrintStream.format(String format, Object... args)
-//	
 //		System.console().writer().println("console");
 	}
 	
